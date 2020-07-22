@@ -135,7 +135,8 @@ a:focus,a:hover {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    margin: auto;
 }
 
 .carousel-inner>.item>a>img,.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img {
@@ -185,7 +186,29 @@ ol,ul {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+}
+
+.bg-t-edge {
+    background: top no-repeat 
+}
+
+@media screen and (min-width: 1300px){
+    .bg-t-edge {
+        background: top repeat 
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+    .image-resize-mode{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 399px){
+    .image-resize-mode{
+        width: 45%;
+    }
 }
 
 @media (min-width: 768px) {
