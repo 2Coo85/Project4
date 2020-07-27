@@ -1174,3 +1174,16 @@ label, .contactInfo{
     }
 }
 
+.quote{
+    font-size: 1.5em;
+    font-weight: 600
+}
+
+.quote span{
+    font-style: italic;
+    font-weight: 300
+}
+
+.subHeading{
+    font-size: 1.35em
+}
